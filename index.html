@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet" />
+  <!-- remix icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- JavaScript -->
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="visually-hidden">Ping coming soon page</h1>
+    <img class="logo__image" src="./assets/images/logo.svg" alt="Ping logo" />
+  </header>
+
+  <main>
+    <section class="showcase grid" aria-labelledby="title">
+      <div class="showcase__text-group">
+        <h2 class="showcase__title" id="title">We are launching <span>soon!</span></h2>
+        <p class="showcase__description">Subscribe and get notified</p>
+      </div>
+      <form action="#" class="form" data-js-form>
+        <div class="form__group">
+          <label for="email">
+            <span class="visually-hidden">Enter Your Email Address</span>
+          </label>
+          <input type="email" id="email" name="email" class="input__field" placeholder="Your Email Address"
+            autocomplete="off" data-js-input />
+          <p class="error__message" data-js-error></p>
+          <p class="success__message" data-js-success></p>
+
+        </div>
+        <button type="submit" class="button button--blue" data-js-button>
+          Notify Me
+        </button>
+      </form>
+      <img class="hero__image" src="./assets/images/illustration-dashboard.png" alt="" aria-hidden="true" />
+    </section>
+  </main>
+  <footer>
+    <ul class="social__list">
+      <li>
+        <a href="#" class="social__list-link">
+          <i class="ri-facebook-fill" aria-label="facebook profile for Ping"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social__list-link">
+          <i class="ri-twitter-fill" aria-label="twitter profile for Ping"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social__list-link">
+          <i class="ri-instagram-line" aria-label="instagram profile for Ping"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Rebecca Padgett</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
