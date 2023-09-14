@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ping-coming-soon-page-using-html-css-and-js-VYLXaAInof)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/ping-coming-soon-page/)
 
 ## My process
 
